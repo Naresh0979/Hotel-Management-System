@@ -10,7 +10,7 @@ public class ConnectionProvider {
 		if(Con==null)
 		{
 			Class.forName("com.mysql.jdbc.Driver");  
-			Con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Hotel","root","kukakumawat08");  
+			Con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Hotel","root","password");  
  
 		  
       }
